@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FirstTest {
     @Test
     void shouldOpen() {
-        System.out.println("my new text");
+        System.out.println("my new text 1");
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
         LocalDate localDate = LocalDate.parse("15.12.2023", formatter);
 
