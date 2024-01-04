@@ -15,6 +15,6 @@ public class FirstTest {
         LocalDate localDate = LocalDate.parse("15.12.2023", formatter);
 
        assertEquals(DayOfWeek.FRIDAY, localDate.getDayOfWeek());
-        System.out.println("This is test 123");
+        System.out.println("This is super test");
     }
 }
